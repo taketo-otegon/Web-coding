@@ -22,6 +22,7 @@
     <label for="msg">Message:</label>
     <textarea id="msg" name="user_message"></textarea>
   </p>
+  <input type="color" name="color" id="color" />
 </form>
 </body>
 </html>
