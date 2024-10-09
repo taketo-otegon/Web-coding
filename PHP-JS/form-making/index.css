@@ -57,3 +57,6 @@ button {
      between the labels and their text fields */
   margin-left: 0.5em;
 }
+.err_msg {
+  color: #ff4d4b;
+}

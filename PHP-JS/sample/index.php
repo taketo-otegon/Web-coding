@@ -76,7 +76,7 @@ if(!empty($_POST)){
                 // バッファードクエリを使う(一度に結果セットをすべて取得し、サーバー負荷を軽減)
                 // SELECTで得た結果に対してもrowCountメソッドを使えるようにする
                 PDO::MYSQL_ATTR_USE_BUFFERED_QUERY => true,
-            );
+          );
 
         // PDOオブジェクト生成（DBへ接続）
         $dbh = new PDO($dsn, $user, $password, $options);
